@@ -1,0 +1,106 @@
+<!--File percobaan html5; Monday, 22 March 2021-->
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Try out 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            color: black;
+            border: 2px solid black;
+            background-color: lightgray;
+            border-collapse: collapse;
+        }
+        td {
+          background-color: aquamarine;  
+          border: 2px solid black;
+        }
+        th {
+            background-color: slateblue;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body style="background-color: lightblue;">
+    <div style= "color: darkblue;
+                font-family: 'Times New Roman', Times, serif;">
+        <h1>COBA-COBA</h1>
+        <hr>
+        <a href="#heading2">Heading 2</a>
+        <p>Ini adalah page percobaan menggunakan 
+            <span style="background-color: snow; color: darkblue;">
+                <a href="https://en.wikipedia.org/wiki/HTML">
+                    <abbr title="Hypertext Markup Language">HTML5</abbr>
+                </a></span>
+                <br>
+                Unordered list :&nbsp;
+                <ul style="list-style-type: circle">
+                    <li>Ini objek 1</li>
+                    <li>Ini objek 2</li>
+                    Ordered list :
+                    <ol type="I">
+                        <li>Ini objek 3</li>
+                        <li>Ini objek 4</li>
+                    </ol>
+                </ul>
+            <br>
+            Description list :
+            <dl style="color: black;">
+                <dt>HTML</dt>
+                <dd><blockquote cite="https://en.wikipedia.org/wiki/HTML">
+                    <i>Hypertext Markup Language (HTML) is the standard markup language 
+                    for documents designed to be displayed in a web browser. 
+                    It can be assisted by technologies such as Cascading Style Sheets (CSS) and 
+                    scripting languages such as JavaScript.</i></blockquote>
+                </dd>
+                <dt>CSS</dt>
+                <dd><blockquote cite="https://en.wikipedia.org/wiki/CSS">
+                    <i>Cascading Style Sheets (CSS) is a style sheet language used for 
+                    describing the presentation of a document written in a markup language 
+                    such as HTML. CSS is a cornerstone technology of the World Wide Web, 
+                    alongside HTML and JavaScript.</i></blockquote>
+                </dd>
+            </dl>
+            <br>
+            Ini adalah tabel :<br>
+            <table style="width: 50%;">
+                <tr>
+                    <th>Nama depan</th>
+                    <th>Nama belakang</th>
+                </tr>
+                <tr>
+                    <td>Arya</td>
+                    <td>Prayoga</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Wick</td>
+                </tr>
+            </table>
+            <br>
+            Ini adalah gambar :<br>
+            <img src="Quotefancy-4416-3840x2160.jpg"
+                alt="Gambar Quote"
+                width="100%"
+                height="100%">
+            <br>
+            Ini adalah link menuju <a href="https://www.google.com" target="_blank">Google</a>
+            <br>
+            Ini adalah gambar link : <br> 
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="instagram logo.jpg" alt="instagram"
+                    width="300" height="200"></a>
+            <br>
+            <h2 id="heading2">Heading 2</h2>
+            <hr>
+        </p>
+    </div>
+    <!-- Refused to connect because violate Content Security Policy -->
+    <!-- The contents of iframe must be located in the same host as the document -->
+    <iframe src="https://google.com" title="Google" name="a" width="1920" height="1080"
+            style="background-color: white;"></iframe>
+    <!-- This is working -->
+    <a href="tabel.html" target="a">Tabel html</a>
+</body>
+</html>

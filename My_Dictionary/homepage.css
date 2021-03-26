@@ -1,0 +1,17 @@
+body#homepage {
+    background-color: gray;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+header {
+    
+}
+
+h1#title {
+    text-align: center;
+    padding: 5px;
+    max-width: 20%;
+    margin: auto;
+}

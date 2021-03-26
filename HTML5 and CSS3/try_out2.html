@@ -1,0 +1,151 @@
+<!--Percobaan HTML5 ke 2; Wednesday, 24 March 2021-->
+<!DOCTYPE html>
+
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <title>Try Out 2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Try Out 2, html5">
+        <meta name="author" content="Arya Prayoga">
+        <meta name="description" content="Try Out 2 for HTML5">
+        <base href="/home/map22/PROGRAMMING/Web Development/HTML5/try_out2.html"
+            target="_blank">
+        <style>
+            body {
+                background-color: rgb(63, 60, 60);
+                color: whitesmoke;
+            }
+            table, td, th {
+                background-color: darkgray;
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 50%;
+                color: black;
+            }
+            td {
+                background-color: lightgray;
+                text-align: center;
+            }
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="sec1">
+            <h1 style="text-align: center;">Percobaan ke 2 HTML5</h1>
+
+            <img src="Quotefancy-19988-3840x2160.jpg" alt="Motivational Quuotes"
+                style="width: 40%; height: auto;" class="center">
+
+            <p>
+                File ini berisi percobaan untuk web development 
+                <a href="https://en.wikipedia.org/wiki/HTML5">
+                    <abbr title="Hypertext Markup Language">HTML5</abbr>
+                </a>.
+            </p>
+
+            <h2>Target untuk menjadi web-developer :</h2>
+            <table>
+                <tr>
+                    <th>Target</th>
+                    <th>Deadline</th>
+                </tr>
+                <tr>
+                    <td>Menguasai HTML5 + CSS3</td>
+                    <td>Mei 2021</td>
+                </tr>
+                <tr>
+                    <td>Menguasai Javascript</td>
+                    <td>Januari 2022</td>
+                </tr>
+                <tr>
+                    <td>Menguasai Bootsrap</td>
+                    <td>Maret 2022</td>
+                </tr>
+                <tr>
+                    <td>Menguasai React</td>
+                    <td>Mei 2022</td>
+                </tr>
+                <tr>
+                    <td>Project Pertama</td>
+                    <td>September 2022</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="sec2">
+            <h2>Log in form :</h2>
+            <form action="welcome_page.html" method="post">
+                <fieldset>
+                    <legend>Login :</legend>
+                    <label for="username">Username : </label><br>
+                    <input type="text" id="username" name="username" autocomplete="on" required><br>
+                    <label for="password">Password : </label><br>
+                    <input type="password" id="password" name="password" autocomplete="off" required><br><br>
+                    <input type="submit" value="Log In">
+                </fieldset>
+            </form>
+
+            <p style="text-align: right;">Intermezo :</p>
+            <a href="https://instagram.com">
+                <img src="instagram logo.jpg" alt="instagram" style="float: right; width: 20%; height: 20%;">
+            </a>
+
+            <h2>Radio button :</h2>
+            <form>
+                <input type="radio" id="front-end" name="developer" value="front-end">
+                <label for="front-end">Front-end Developer</label><br>
+                <input type="radio" id="back-end" name="developer" value="back-end">
+                <label for="back-end">Back-end Developer</label><br>
+                <input type="radio" id="full-stack" name="developer" value="full-stack">
+                <label for="full-stack">Full-stack Developer</label><br>
+            </form>
+            
+            <h2>Checkboxes :</h2>
+            <form>
+                <input type="checkbox" id="html5" name="programming language" value="html5">
+                <label for="html5">HTML5</label><br>
+                <input type="checkbox" id="css3" name="programming language" value="css3">
+                <label for="css3">CSS3</label><br>
+                <input type="checkbox" id="javascript" name="programming language" value="javascript">
+                <label for="javascript">Javascript</label><br>
+            </form>
+
+            <h2>Selection :</h2>
+            <form>
+                <label for="pilihan">Pilih salah satu :</label><br>
+                <select id="pilihan" name="pilihan">
+                    <option value="freelance">Freelance</option>
+                    <option value="full-time">Full-time</option>
+                    <option value="internship">Internship</option>
+                </select>
+            </form>
+
+            <h2>Textarea :</h2>
+            <form action="welcome_page.html">
+                <label for="essay">Tulis essay : </label><br>
+                <textarea name="essay" id="essay" style="width: 20%; height: 200px;" required></textarea><br>
+                <input type="submit"> 
+                <button type="button" onclick="alert('You clicked a button')">Click Me!</button>
+            </form>
+
+            <h2>Datalist :</h2>
+            <form action="welcome_page.html">
+                <label for="name">Input a character name : </label><br>
+                <input list="name"> 
+                <datalist id="name">
+                    <option value="Arya Prayoga"></option>
+                    <option value="Alexander"></option>
+                    <option value="Joh Wick"></option>
+                </datalist>
+                <input type="submit">
+            </form>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+.center {
+    margin: auto;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1#title {
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+    max-width: 60%;
+}
+
+p {
+    margin-top: 50px;
+}
+
+abbr, a {
+    text-decoration: none;
+}
+
+input#password {
+    margin-left: 3px;
+}
+
+input#submit:hover {
+    background-color: darkgray;
+}
+
+fieldset#login {
+    max-width: 30%;
+}
+
+fieldset#login legend {
+    text-align: center;
+}
+
+table,td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#task {
+    min-width: 40%;
+    max-width: 60%;
+    margin-top: 30px;
+}
+
+#task th {
+    background-color: gray;
+}
+
+#task td {
+    background-color: lightgray;
+}
+
+#task th:hover, #task td:hover {
+    background-color: darkgray;
+}
+
+a:link, a:visited {
+    color: black;
+    background-color: lightsteelblue;
+}
+
+a:hover, a:active {
+    color: black;
+    background-color: lightskyblue;
+}
